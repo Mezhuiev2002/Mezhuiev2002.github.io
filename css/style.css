@@ -1,0 +1,102 @@
+body {
+    max-width: 100%;
+    font-family: 'Permanent Marker', cursive;
+    margin: auto;
+
+}
+div {
+    padding: 5px 15px;
+}
+.header {
+    text-align: center;
+    width: 70%;
+    background-color: darkgray;
+    position: relative;
+    height: 100px;
+}
+.left {
+    width: 70%;
+    text-align: left;
+    position: absolute;
+    left: 5px;
+    height: 95px;
+    line-height: 95px;
+    font-size: xx-large;
+}
+.right {
+    width: 26%;
+    text-align: center;
+    background-color: lightpink;
+    position: absolute;
+    right: 5px;
+    height: 90px;
+    line-height: 90px;
+    font-size: xx-large;
+    margin-right: 20px;
+}
+.sidebar {
+    width: 7.5%;
+    background-color: lightpink;
+    height: 93.85%;
+    position: absolute;
+    right: 20%;
+    top: 0;
+    text-align: center;
+    font-size: 52pt;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.content {
+    width: 70%;
+    height: 700px;
+    background-color: cornsilk;
+    font-size: 20pt;
+}
+.footer {
+    width: 69.33%;
+    background-color: darkgray;
+    height: 138px;
+    position: relative;
+}
+.fleft {
+    width: 26%;
+    text-align: center;
+    background-color: lightpink;
+    position: absolute;
+    height: 120px;
+    line-height: 120px;
+    font-size: xx-large;
+    margin: 5px;
+}
+.fright {
+    width: 65%;
+    text-align: right;
+    position: absolute;
+    right: 10px;
+    margin: 5px;
+    height: 125px;
+    line-height: 125px;
+    font-size: xx-large;
+    top: 20px;
+}
+.menubar {
+    width: 18.41%;
+    height: 810px;
+    background-color: cornsilk;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 32pt;
+    color: black;
+}
+.underline {
+    width: 18.41%;
+    height: 138px;
+    background-color: darkgray;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 64pt;
+    text-align: center;
+    line-height: 138px;
+}
